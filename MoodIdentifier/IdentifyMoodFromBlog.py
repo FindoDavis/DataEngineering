@@ -37,7 +37,7 @@ text = '\n'.join(chunk for chunk in chunks if chunk)
 
 #print(text)
 mood = pd.read_csv('Mood_list.csv')
-mood=mood[["Polarity","Words"]][mood["Category"]=='MOOD'].drop_duplicates()
+mood=mood[["Polarity","Words"]].drop_duplicates()
 
 worddf=pd.DataFrame (columns=["Words"])
 for word in text.split():    
