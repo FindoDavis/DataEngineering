@@ -20,8 +20,7 @@ specfile='spec.json'
 def __init__ (self,specfile):
     self.specfile=specfile
     
-#ef main(self):
 fwdf(specfile)
 csvf(specfile)
 
-logger.info (" main batch started ")
+logger.info (" main batch finished ")
