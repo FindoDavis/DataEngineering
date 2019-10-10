@@ -1,8 +1,10 @@
 
 """
 Created on Wed Oct  9 23:49:21 2019
-
-@author: jbksmaker
+Purpose: 1.This script call in functions to generate fixedwidth file based on the 
+         specification given in json file 
+         2. A csv format file is also created from the fixedwidth file
+@author: Findo Davis
 """
 import logging
 
