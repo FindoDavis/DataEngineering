@@ -1,7 +1,7 @@
 
 """
 Created on Wed Oct  9 01:08:49 2019
-
+Purpose: Generate  a fixed width file by using the specifications in spec file
 @author: Findo Davis
 """
 
