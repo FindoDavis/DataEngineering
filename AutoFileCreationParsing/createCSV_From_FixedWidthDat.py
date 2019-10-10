@@ -1,6 +1,6 @@
 
 """Created on Wed Oct  9 07:49:12 2019
-
+Purpose: Generate  a csv format file from a fixedwidth file
 @author: Findo Davis
 """
 import json
